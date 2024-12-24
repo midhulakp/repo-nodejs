@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color: black;
+}
+
+.logo{
+    margin-left: 2em;
+    color: white;
+}
+nav ul{
+    list-style: none;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+main{
+    margin-top: 2em;
+}
+
+main div{
+    width: 900px;
+    margin: 0 auto;
+}
+img{
+    margin-top: 3em;
+    margin-bottom: 3em;
+    display: block;
+    height: 400px;
+    width: 100%;
+}
+
+
+/* contact style */
+section{
+    width: 400px;
+    margin: 20px auto;   
+    text-align: center; 
+}
+section form{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+section h1{
+    margin-bottom: 2em;
+}
+input{
+    padding: 1em;
+    border: 2px solid black;
+    font-size: large;
+}
+textarea{
+    padding:  1em;
+    border: 2px solid black;
+    font-size: large;
+}
+
+button{
+    padding: 10px 40px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: large;
+}
+
+::placeholder{
+    text-transform: capitalize;
+    font-size: larger;
+}
